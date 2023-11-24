@@ -13,7 +13,7 @@ def easterEgg(number):
     elif number==777:
         print("lucky!")
     elif number==82100:
-        print("빨리 돌아와")
+        print("빨리 돌아와") 
     
 
 # 메인 함수
