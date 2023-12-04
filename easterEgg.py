@@ -1,19 +1,20 @@
 
-#이스터에그 
-
+# 이스터에그 함수
 def easterEgg(number):
     if number == 404:
-        print("not found")
-    elif number==1004:
-        print("thanks for your kindness!")
-    elif number==7942:
-        print("Amigo!")
-    elif number==505:
-        print("SOS")
-    elif number==777:
-        print("lucky!")
-    elif number==82100:
-        print("빨리 돌아와") 
+        print('[EVENT]"not found"')
+    elif number == 1004:
+        print('[EVENT]"thanks for your kindness!""')
+    elif number == 7942:
+        print('[EVENT]"Amigo!""')
+    elif number == 505:
+        print('[EVENT]"SOS"')
+    elif number == 777:
+        print('[EVENT]"lucky!""')
+    elif number == 82100:
+        print('[EVENT]"빨리 돌아와"')
+    elif number==1015:
+        print('[EVENT]전북대 개교기념일입니다.')
     
 
 # 메인 함수
