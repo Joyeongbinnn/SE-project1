@@ -1,7 +1,7 @@
 # 더하기 함수
 def add(x, y):
   if not (isinstance(x, int)) or not (isinstance(y, int)):
-    raise ValueError("Error: Please use Integer")
+    raise ValueError("[SYSTEM] ERROR!") #"Error: Please use Integer"->"[SYSTEM] ERROR!" 수정
   result = x + y
   return result
 
@@ -11,13 +11,13 @@ def subtract(x, y):
   if (isinstance(x, int) and isinstance(y, int)):
     return x - y
   else:
-    raise ValueError("Error: Please use Integer")
+    raise ValueError("[SYSTEM] ERROR!") #"Error: Please use Integer"->"[SYSTEM] ERROR!" 수정
 
 
 # 곱하기 함수
 def multiply(x, y):
   if not (isinstance(x, int)) or not (isinstance(y, int)):
-    raise ValueError("Error: Please use Integer")
+    raise ValueError("[SYSTEM] ERROR!") #"Error: Please use Integer"->"[SYSTEM] ERROR!" 수정
   result = x * y
   return result
 
@@ -25,7 +25,7 @@ def multiply(x, y):
 # 예외 처리 - 연산자 확인
 def check_operator(operator):
   if operator not in ('+', '-', '*'):
-    return "Error: Invalid operator. Please use '+', '-', '*'"
+    return "[SYSTEM] ERROR!" #"Error: Invalid operator. Please use '+', '-', '*'"->"[SYSTEM] ERROR!" 수정(예외출력이지만 에러의 범주에 포함)
   return None
 
 
@@ -34,7 +34,7 @@ def check_integer(value):
   try:
     int(value)
   except ValueError:
-    return "Error: Please enter an Integer"
+    return "[SYSTEM] ERROR!" #"Error: Please enter an Integer"->"[SYSTEM] ERROR!" 수정
   return None
 
 
